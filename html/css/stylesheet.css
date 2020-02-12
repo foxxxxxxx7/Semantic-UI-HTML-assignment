@@ -1,0 +1,105 @@
+ul li a:link, ul li a:visited {
+ text-decoration: none;
+ color: white;
+}
+
+ul li a:hover {
+ color:white;
+ background-color:lightblue;
+}
+
+ul li a:active {
+ color: white;
+ background-color:lightblue;
+ 
+}
+ul {
+ padding:0.5em;
+ background-color:white;
+}
+
+ul li {
+ display:inline;
+ margin:0.01%;
+}
+
+ ul li a{
+ display:inline-block;
+ background-color:blue;
+ width:19%;
+ padding:0.5em 0;
+ text-align:center;
+ font-weight:bold;
+ font-size:90%;
+ font-family:Helvetica, sans-serif;
+}
+
+footer{
+	margin:1em 45em;
+	display:inline-block;
+	font-family:Helvetica, sans-serif;
+}
+h1 , h3 {
+	font-family: Verdana, sans-serif;
+    font-size: 2em; 
+	
+}
+
+h2{
+	text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+}
+body{
+	 background-image: url(../images/rt.jpg);
+      background-color: lightblue;
+	  background-size: contain;
+	  position: relative;
+}
+
+#aba{
+	margin:1em 20em ;
+}
+
+table, th, td {
+	font-family:avenir, sans-serif;
+  border: solid black 1px;
+  text-align:center;
+}
+
+tbody tr:hover {
+  cursor:pointer;
+  background-color: orange;
+  color:orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: darkgray;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: lightgray;
+}
+thead{
+		background-color:white;
+	}
+	
+	thead th {
+		background-color:black;
+		color:orange;
+		font-style:bold;
+	}
+	
+	p {
+		color:white;
+		font-family:comic sans, sans-serif;
+	}
+		
+		main{
+			color:white;
+			font-family:comic sans, sans-serif;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		}
+		
+		body img{
+			
+		}

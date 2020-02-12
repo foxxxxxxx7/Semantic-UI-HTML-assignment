@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+<meta charset = 'utf-8'>
+
+<link rel="stylesheet" href="css/stylesheet.css">
+<title>Tower Hotel Leisure Center Contact Page</title>
+
+</head>
+
+
+<header >
+<nav>
+
+ <ul>
+  <li><a class=" item" href = "index.html">Welcome</a></li>
+  <li><a class="active item" href = "facilities.html">Facilities</a></li>
+  <li><a class="item" href = "appointments.html">Appointments</a></li>
+  <li><a class="item" href = "prices.html">Prices</a></li>
+  <li><a class="active item" href = "contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+<h1>Contact The Leisure Centre Thorugh Email Or By Phone</h1>
+    <h3>We'll get back to you as soon as possible!</h3>
+    <p><em>usually reply within 24 hours</em></p>
+</header>
+<br>
+<body>
+
+<main class="thirteen wide center align column">
+<h2>Contact Us</h2>
+<p>Use this page to email us about any questions or problems you may have. We are always happy to hear from you!</p>
+<p>If you need to get in touch urgently, please call us at +353 (0)51 862300 <a href="mailto:leisure@thw.ie.">drop us a line by email</a>.</p>
+<form action="process.html" method="get" id = "contact" class="ui form" role="form">
+
+<div class = "inline field">
+    <label for="contactname" class="two wide field">Contact Name</label>
+    <input type="text" title = "Enter your Name (Surname Optional), Capitilize the first letter!" name="contactname" autofocus required pattern = "[A-Z][a-z]+( [A-Z][a-z]+)*" id="contactname" class="eight wide field">
+</div>
+	
+<div class = "inline field">
+	<label for ="tel" class ="two wide field"> Telephone number</label>
+	<input type="text" title = "Enter your Telephone Number here" name="tel" required pattern = "^(\(\d{3}\)|\d{3})-?\d{6,9}$" id="tel" class = "eight wide field">
+</div>
+
+<div class = "inline field">
+	<label for = "email" class = "two wide field">Email Address: </label>
+	<input type="email" title = "Enter your Email here" required pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" name="email" id="email" class = "eight wide field">
+</div>
+
+<div class = "inline field">
+ <label for="event" class="two wide field">What's the topic of your Query?</label>
+    <input type="text" title = "Please give us your query" name="event" id="event" class="eight wide field">
+</div>
+
+
+<div class = "inline field">
+ <label for="event1" class="two wide field">What's your preferred method of contact?</label>
+    <input type="text" title = "How would you like to be contacted?" required name="event1" id="event1" class="eight wide field">
+</div>
+
+
+<div class = "inline field">
+	<label for = "status" class ="two wide field">Are you a member already?</label>
+      <input type = "text" required list = "status" name = "status" class = "eight wide field">
+	  <datalist id = "status">
+	  <option value="Full Member">Full Member</option>
+	  <option value="Swim Only">Swim Only</option>
+	  <option value="Gym Only">Gym Only</option>
+	  <option value="Hotel Guest">Hotel Guest</option>
+	  <option value="Visitor">Visitor</option>
+	  <option value="Staff">Staff</option>
+	  <option value="Minor">Minor</option>
+	  </datalist>
+</div>
+
+
+<p>
+Please provide any further details of your inquiry here. Please be as detailed as you possibly can. 
+</p>
+<label for = "comments">More details(As much as you'll think you need)</label>
+<textarea id="comments" name="comments" rows = "5" cols="40" >
+</textarea>
+
+<p>
+If we need to call you back for more info, what would be the best time to call you on the number supplied?
+</p>
+
+<div class="grouped fields">
+      
+      <div class="field">
+        <div class="ui radio checkbox">
+          <input type="radio" name="time" checked="checked" id = "morning" value = "morning">
+          <label for = "morning" >In the Morning</label>
+        </div>
+      </div>
+      <div class="field">
+        <div class="ui radio checkbox">
+          <input type="radio" name="time"  id = "afternoon" value = "afternoon">
+          <label for = "afternoon">In the Afternoon</label>
+        </div>
+      </div>
+	  <div class="field">
+        <div class="ui radio checkbox">
+          <input type="radio" name="time"  id = "evening" value = "evening">
+          <label for = "evening">In the Evening</label>
+        </div>
+      </div>
+	  <div class="field">
+        <div class="ui radio checkbox">
+          <input type="radio" name="time"  id = "none" value = "none">
+          <label for = "none">No calls Please</label>
+        </div>
+      </div>
+	  
+	  <p>
+	  Do you consent to use this information to better our systems and provide data to advertising companies (don't worry you're still protected under the data protection act!). Please confirm if you are happy for us to do so.
+	  </p>
+	  
+	 
+	  
+	  <input type="checkbox" name="use" id="use" value="subscribe" checked="checked" style="float:left">
+<label for = "use" style="float:left" >I am happy for the tower hotel to use the data provided as they see fit.</label>
+
+
+<br>
+<br>
+<button class="ui blue button">
+   Send us the Info
+</button>
+<button class="ui blue button" type = "reset">
+   Clear the Info
+</button>
+
+</p>
+
+</form>
+</body>
+</main>
+</div></div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+</html>
+<footer>
+
+<section>
+<a target="_blank" href="https://www.facebook.com/towerhotelwaterford/"><button type=" button">FACEBOOK</button></a>
+<a target="_blank" href="https://www.instagram.com/towerhotelwd/"><button type=" button">INSTAGRAM</button></a>
+<a target="_blank" href="https://twitter.com/TowerHotel"><button type=" button">TWITTER</button>
+<a target="_blank" href="https://www.youtube.com/user/TowerhotelTHW"><button type=" button">YOUTUBE</button></a>
+<a target="_blank" href="https://plus.google.com"><button type=" button">GOOGLE</button></a>
+
+    
+ </section>
+ </footer>
+
+
+
+
+
+
+
+
